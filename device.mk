@@ -99,6 +99,10 @@ PRODUCT_PACKAGES += \
     libsuspend \
     android.hardware.health@2.0
 
+# Notch Killer
+PRODUCT_PACKAGES += \
+    NotchBarKiller
+
 # RcsService
 PRODUCT_PACKAGES += \
     RcsService
