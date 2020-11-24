@@ -31,6 +31,10 @@ $(call inherit-product, vendor/mediatek/ims/mtk-ims.mk)
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/audio/audio_policy_configuration.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio_policy_configuration.xml
 
+# Camera
+PRODUCT_PACKAGES += \
+    GoogleCameraGo
+
 # Bluetooth
 PRODUCT_PACKAGES += \
     libldacBT_dec
