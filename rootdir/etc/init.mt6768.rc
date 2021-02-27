@@ -17,10 +17,10 @@ on init
     # DT2W
     chown system system /dev/input/event3
 
-on property:persist.sys.lancelot.dt2w=0
+on property:persist.sys.lava.dt2w=0
     exec /system/bin/sendevent /dev/input/event3 0 1 4
 
-on property:persist.sys.lancelot.dt2w=1
+on property:persist.sys.lava.dt2w=1
     exec /system/bin/sendevent /dev/input/event3 0 1 5
 
 on fs

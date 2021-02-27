@@ -16,7 +16,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(TARGET_DEVICE),lancelot)
+ifeq ($(TARGET_DEVICE),lava)
 $(call add-radio-file,dynamic-add-system_ext)
 
 include $(call all-makefiles-under,$(LOCAL_PATH))
