@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-# Inherit from merlin device makefile
+# Inherit from lava device makefile
 $(call inherit-product, device/xiaomi/lava/device.mk)
 
 # Inherit from those products. Most specific first.
