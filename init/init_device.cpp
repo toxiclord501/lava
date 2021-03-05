@@ -42,15 +42,15 @@ void vendor_load_properties() {
 
     if (hwname == "lancelot") {
         property_override("ro.product.brand", "Redmi");
-        property_override("ro.product.model", "M2004J19C");
+        property_override("ro.product.model", "Redmi 9");
         property_override("ro.product.device", "lancelot");
     } else if (hwname == "galahad") {
         property_override("ro.product.brand", "Redmi");
-        property_override("ro.product.model", "M2004J19C");
+        property_override("ro.product.model", "Redmi 9");
         property_override("ro.product.device", "galahad");
     } else if (hwname == "shiva") {
         property_override("ro.product.brand", "POCO");
-        property_override("ro.product.model", "M2004J19PI");
+        property_override("ro.product.model", "POCO M2");
         property_override("ro.product.device", "shiva");
     }
 }
