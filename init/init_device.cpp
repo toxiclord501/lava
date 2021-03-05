@@ -41,9 +41,15 @@ void vendor_load_properties() {
     std::string hwname = GetProperty("ro.boot.product.hardware.sku", "");
 
     if (hwname == "lancelot") {
-        property_override("ro.product.brand", "Redmi");
-        property_override("ro.product.model", "Redmi 9");
-        property_override("ro.product.device", "lancelot");
+            if (region == "CN") {
+                property_override("ro.product.brand", "Redmi");
+                property_override("ro.product.model", "Redmi 9 Prime");
+                property_override("ro.product.device", "lancelot");
+            }else {
+                property_override("ro.product.brand", "Redmi");
+                property_override("ro.product.model", "Redmi 9");
+                property_override("ro.product.device", "lancelot");
+        }
     } else if (hwname == "galahad") {
         property_override("ro.product.brand", "Redmi");
         property_override("ro.product.model", "Redmi 9");
