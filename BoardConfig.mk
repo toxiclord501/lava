@@ -14,6 +14,7 @@
 # limitations under the License.
 #
 
+-include vendor/aeonax/ANXCamera/BoardConfigAnx.mk
 DEVICE_PATH := device/xiaomi/lava
 
 # Architecture
