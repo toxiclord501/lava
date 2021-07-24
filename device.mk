@@ -102,3 +102,5 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/permissions/xyz.extras.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/xyz.extras.xml \
     $(LOCAL_PATH)/permissions/xyz.extras.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/xyz.extras.xml \
+    $(LOCAL_PATH)/permissions/privapp-permissions.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions.xml \
+    $(LOCAL_PATH)/permissions/privapp-permissions.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions.xml
