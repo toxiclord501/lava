@@ -25,6 +25,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base.mk)
 # Inherit from our custom product configuration
 $(call inherit-product, vendor/nusantara/config/common_full_phone.mk)
 
+# Official Tag
+NAD_BUILD_TYPE := OFFICIAL
+
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := lava
 PRODUCT_NAME := nad_lava
