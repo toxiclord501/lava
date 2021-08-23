@@ -128,6 +128,6 @@ void vendor_load_properties()
         property_override(string("ro.product.") + prop + string("model"), model);
     }
     
-    property_override("ro.build.description", "redfin-user 11 RQ3A.210705.001 7380771 release-keys");
-    property_override_triple("ro.build.fingerprint", "ro.system.build.fingerprint", "ro.vendor.build.fingerprint", "google/redfin/redfin:11/RQ3A.210705.001/7380771:user/release-keys");
+    property_override("ro.build.description", "redfin-user 11 RQ3A.210805.001.A1 7474174 release-keys");
+    property_override_triple("ro.build.fingerprint", "ro.system.build.fingerprint", "ro.vendor.build.fingerprint", "google/redfin/redfin:11/RQ3A.210805.001.A1/7474174:user/release-keys");
 }
