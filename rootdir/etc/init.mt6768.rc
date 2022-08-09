@@ -13,13 +13,13 @@ on init
     mount none /system/etc/init/android.hardware.keymaster@4.0-service.beanpod.rc /vendor/etc/init/android.hardware.keymaster@4.0-service.beanpod.rc
     
     # DT2W
-    chown system system /dev/input/event3
+    chown system system /dev/input/event2
 
 on property:persist.sys.lava.dt2w=0
-    exec /system/bin/sendevent /dev/input/event3 0 1 4
+    exec /system/bin/sendevent /dev/input/event2 0 1 4
 
 on property:persist.sys.lava.dt2w=1
-    exec /system/bin/sendevent /dev/input/event3 0 1 5
+    exec /system/bin/sendevent /dev/input/event2 0 1 5
 
 on fs
     mount_all /vendor/etc/fstab.mt6768 --early
